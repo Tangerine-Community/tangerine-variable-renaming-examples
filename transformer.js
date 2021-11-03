@@ -1,4 +1,13 @@
+/*
+ * Maps.
+ */
 
+// A straightforward map of variable names to change, regardless of item context.
+const variableMap = {
+  zab: 'zebra'
+}
+
+// A map of variable names to change by item context.
 const variableMapByItemContext = {
   item_a: {
     foo: 'foo_item_a'
@@ -8,7 +17,7 @@ const variableMapByItemContext = {
   }
 }
 
-// List of variable names to append the item ID.
+// A map of variable names to append item context to followed by a map of what string to append given the item context.
 const variableMapToAddItemContext = [
   'bar'
 ]
@@ -18,9 +27,9 @@ const itemIdMap = {
   item_b: 'cool_b'
 }
 
-const variableMap = {
-  zab: 'zebra'
-}
+/*
+ * Transformer.
+ */
 
 module.exports = function transformer(response) {
   response.items = response.items.map(item => {
