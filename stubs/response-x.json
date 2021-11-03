@@ -1,0 +1,27 @@
+{
+  "_id": "responseX",
+  "items": [
+    {
+      "id": "item_a",
+      "inputs": [
+        {
+          "name": "zab",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": "item_b",
+      "inputs": [
+        {
+          "name": "foo",
+          "value": "1"
+        },
+        {
+          "name": "bar",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "responseZ",
+  "items": [
+    {
+      "id": "item_a",
+      "inputs": [
+        {
+          "name": "foo",
+          "value": "1"
+        },
+        {
+          "name": "bar",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": "item_b",
+      "inputs": [
+        {
+          "name": "zab",
+          "value": "3"
+        }
+      ]
+    }
+  ]
+}
